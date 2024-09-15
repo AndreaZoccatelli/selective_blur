@@ -10,6 +10,10 @@ selected by the user and adapt the blur of the surroundings naturally. To achiev
 leverages `Segment Anything <https://ai.meta.com/sam2>`_ to mask the selected subject and 
 `MiDaS <https://github.com/isl-org/MiDaS>`_ for depth-aware blurring.
 
+Go to the `GitHub Repository <https://github.com/AndreaZoccatelli/selective_blur>`_.
+
+This project is part of "`Root. <https://andrea-zoccatelli.gitbook.io/me/v/root.>`_".
+
 
 .. toctree::
    :maxdepth: 2
