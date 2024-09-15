@@ -1,3 +1,5 @@
+# Selective Blur
+
 Selective Blur is a tool that allows to change the focus of an image on a subject 
 selected by the user and adapt the blur of the surroundings naturally. 
 
