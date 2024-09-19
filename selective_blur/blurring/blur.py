@@ -48,14 +48,14 @@ class SimpleBlur:
         Applies gaussian blur based on the depth decile in which the pixel falls into.
         The process is the following:
 
-        1. the pixel depth values obtained with MiDaS are divided into deciles
+        1. The pixel depth values obtained with MiDaS are divided into deciles.
 
-        2. if user has provided a mask array for the image its average depth value is computed. If
-           it is greater or equal to the median overall depth value of the image (subject near to the camer objective)
-           the blur will be higher for more distant subjects, if less or equal viceversa
+        2. If user has provided a mask array for the image, its average depth value is computed. If
+           it is greater or equal to the median overall depth value of the image (subject near the camera objective)
+           the blur will be higher for more distant subjects, if less or equal, and vice versa.
 
-        3. if the mask has not been provided more far objects will be more blurred by default
-           (increasing filter size correspond to lower deciles)
+        3. If the mask has not been provided, more far objects will have a higher blur level by default
+           (increasing filter size corresponds to lower deciles).
 
         Args:
             kernel (int): the max kernel size dimension for gaussian blur
